@@ -84,5 +84,24 @@ venv\Scripts\activate.bat       # On Windows
 
 pip install -r requirements.txt
 
+## Results(chest x-ray)
+
+| Method                    | Dice Score | IoU Score | Hausdorff Distance |
+|---------------------------|------------|-----------|--------------------|
+| Traditional Ensemble      | 0.52       | 0.43      | 30.2               |
+| U-Net                     | 0.94       | 0.91      | 20.5               |
+| U-Net + Boundary Loss     | 0.98       | 0.95      | 15.4               |
+| U-Net + CRF Refinement    | 0.91       | 0.82      | 15.2               |
+
+---
+
+## Results (CT Brain)
+
+| Method                         | Dice Score | IoU Score | Hausdorff Distance |
+|--------------------------------|------------|-----------|--------------------|
+| U-Net                          | 0.015      | 0.013     | 100.2              |
+| U-Net + Boundary loss          | 0.015      | 0.013     | 100.2              |
+| U-Net + CRF Refinement         | 0.015      | 0.013     | 100.2              |
+
 
 
