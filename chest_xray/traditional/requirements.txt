@@ -1,0 +1,11 @@
+# =================== requirements.txt ===================
+numpy>=1.21.0
+opencv-python>=4.5.0
+scikit-image>=0.18.0
+scikit-learn>=1.0.0
+scipy>=1.7.0
+matplotlib>=3.4.0
+tqdm>=4.62.0
+PyMaxflow>=1.2.13
+
+# ===================
