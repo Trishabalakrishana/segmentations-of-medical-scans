@@ -39,16 +39,6 @@ To compare the performance of traditional and deep learning-based segmentation m
 - Hausdorff Distance
 
 
-## Datasets
-
-### Chest X-ray Dataset
-- Source: https://www.kaggle.com/datasets/nikhilpandey360/chest-xray-masks-and-labels
-- Format: PNG images with ground-truth binary lung masks
-
-### CT Brain Scan Dataset
-- Source: https://physionet.org/content/ct-ich/1.3.1/
-- Format*: Slices from volumetric CT scans with binary region masks
-
 ---
 ## Methods Used
 
