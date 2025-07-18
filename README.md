@@ -13,6 +13,7 @@ Each part includes:
 ---
 
 ## Project Structure
+```bash
 segmentations-of-medical-scans/
 ├── chest_xray/
 │ ├── traditional/
@@ -29,7 +30,7 @@ segmentations-of-medical-scans/
 ├── results/
 ├── requirements.txt
 └── README.md
-
+```
 ## Objective
 
 To compare the performance of traditional and deep learning-based segmentation methods on medical imaging datasets, evaluated using:
